@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(image/bg.jpg);
+    background-size: max(1000px, 100vw);
+    background-repeat: no-repeat;
+    height: 90vh;
+    opacity: 0.69;
+    position: relative;
+    
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+}
+nav{
+    max-width: 80vw;
+    margin: auto;
+    justify-content:space-around;
+    display: flex;
+    align-content: center;
+    height: 30vh;
+    padding: 20px;
+    gap: 100px;
+}
+nav img{
+    height: 40px;
+    z-index: 10;
+}
+
+
+nav div .btn1{
+    z-index: 10;
+    background-color: rgb(249, 17, 17);
+    color: aliceblue;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav div button{
+    z-index: 10;
+    background-color:black;
+    color: aliceblue;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
+.hero{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    position: relative;
+}
+
+.span1{
+    font-size: 3em;
+    font-weight: bolder;
+}
+.span2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.span3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box1 input{
+    z-index: 10;
+    background-color:black;
+    color: aliceblue;
+    height: 45px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.box1 button{
+    z-index: 10;
+    background-color: red;
+    color: aliceblue;
+    height: 45px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sepration{
+    height: 8px;
+    background-color: rgb(147, 139, 143);
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    color: white;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.secImg{
+    border: 2px solid gray;
+    cursor: pointer;
+    display: flex;
+}
+    
+.secImg img {
+        width: 555px;
+        position: relative;
+        z-index: 10;
+        cursor: pointer;
+    }
+
+
+.secImg >video{
+    position: absolute;
+    left: 0;
+    width: 555px;
+    display: flex;
+    justify-content: center;
+    margin-left: 515px;
+}
+.secimg1{
+    top:180px;
+    width:500px
+}
+.secimg1 video{
+    width: 500px;
+    height: 200px;
+    position:absolute;
+    top:658px;
+    display: flex;
+   
+}
+
+.first > div :first-child{
+    font-size: 34px;
+    font-weight: bold;
+}
+.first > div :nth-child(1){
+    font-size: 24px;
+    font-weight: bold;
+}
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+.faq{
+    color: white;
+    justify-content:center;
+    align-items: center;
+    padding: 50px;
+    margin-left: 200px;
+    gap: 20px;
+
+}
+.faqbox{
+    transition: all 1s ease-out;
+    height: 65px;
+    width: 800px;
+    background-color: rgb(68, 66, 66);
+    text-align:start;
+    padding-top: 14px;
+    padding-left: 10px;
+    margin: 20px;
+    cursor: pointer;
+    justify-content: space-between;
+
+}
+.faqbox >svg{
+    filter:invert()
+}
+
+.faq1 >h4{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.box1{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.Questions{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-weight: 500;
+}
+.footer{
+    color: white;
+    max-width: 80vw;
+    padding: 74px 0;
+    display: flex;
+}
+.footer-item{
+    align-items: center;
+}
+@media screen and (max-width: 1300px) {
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer-item a{
+    color: white;
+    display: flex;
+}
+select{
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    color: white;
+    margin-left: 150px;
+    border-radius: 8px;
+}
+.Foot1{
+    color: white;
+    font-weight: bold;
+    margin-left:  150px; 
+    margin-top: 50px;
+}
+
+.btn1:hover{
+    background-color: rgb(219, 122, 154);
+    
+}
+.box1 :hover{
+    background-color: rgb(219, 122, 154);
+}
+.faqbox:hover{
+    background-color: rgba(199, 192, 192, 0.694);
+}
+.footer-item a:hover{
+    background-color: rgb(173, 203, 229);
+}
